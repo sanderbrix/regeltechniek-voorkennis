@@ -239,7 +239,8 @@ def plot_complex(
             )
     else:
         point = ax.scatter(z.real, z.imag, marker="x", zorder=10, label=f"${z_label}$")
-        fc = point.get_facecolor()
+
+    fc = point.get_facecolor()
 
     if plot_arc:
         xtick = 2 if z.imag > 0 else 3

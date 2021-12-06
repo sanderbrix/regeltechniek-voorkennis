@@ -29,7 +29,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://gitlab.com/scbregman/voorkennis_regeltechniek  # Online location of your book
+  url: https://github.com/sanderbrix/regeltechniek-voorkennis  # Online location of your book
   path_to_book: voorkennis_voor_regeltechniek  # Optional path to your book, relative to the repository root
   branch: master  # Which branch of the repository should be used when creating links (optional)
 
